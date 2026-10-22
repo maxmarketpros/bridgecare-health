@@ -1,0 +1,6 @@
+import{c as p,j as e}from"./createLucideIcon.CAnqwHRH.js";import{r as u}from"./index.-iFofLld.js";/**
+ * @license lucide-react v0.487.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const x=[["path",{d:"M5 12h14",key:"1ays0h"}],["path",{d:"M12 5v14",key:"s699le"}]],m=p("plus",x);function b({items:o,dark:r=!1}){const[a,d]=u.useState(0),n=r?"border-line":"border-line-ink-soft",c=r?"text-foreground":"text-ink",l=r?"text-muted":"text-ink-muted";return e.jsx("div",{className:`divide-y border-y ${n} divide-[inherit]`,children:o.map((i,s)=>{const t=a===s;return e.jsxs("div",{children:[e.jsxs("button",{type:"button",onClick:()=>d(t?null:s),className:`flex w-full items-center justify-between gap-6 py-5 text-left font-display text-sm font-bold uppercase tracking-wide sm:text-base ${c}`,"aria-expanded":t,children:[i.q,e.jsx("span",{className:`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition-colors ${t?"border-primary bg-primary text-white":`${n} text-primary`}`,"aria-hidden":"true",children:e.jsx(m,{className:`h-4 w-4 transition-transform duration-200 ${t?"rotate-45":""}`})})]}),t&&e.jsx("p",{className:`pb-6 pr-14 text-sm leading-relaxed ${l}`,children:i.a})]},s)})})}export{b as default};
